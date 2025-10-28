@@ -1,6 +1,6 @@
 /**
  * Kelas ini merepresentasikan data pengguna secara umum
- * kelas ini merupakan parent dari class player
+ * class ini merupakan parent dari class player
  */
 public class User {
     /**

@@ -1,6 +1,6 @@
 public class TopUp {
     /**
-     * package diamond yang dijual
+     * package diamond yang akan dijual
      */
     private String diamondPackage;
     /**

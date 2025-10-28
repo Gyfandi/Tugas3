@@ -11,7 +11,7 @@ public class MainApp {
     public static final int DIAMOND_170 = 38000; //Refactor 3
     public static final int DIAMOND_257 = 55000; //Refactor 3
     public static final int DIAMOND_706 = 150000; //Refactor 3
-    public static final int SALDO_AWAL = 1000000000; //Refactor 3
+    public static final int SALDO_AWAL = 100000000; //Refactor 3
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

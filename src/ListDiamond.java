@@ -1,7 +1,7 @@
 public class ListDiamond {
     /**
      * switch case untuk proses pemilihan dari list list diamond
-     * if else untuk apabila saldo leih banyak dari harga akan memproses topup, dan apabila harga lebih mahal dari saldo akan menampilkan pesan
+     * if else untuk apabila saldo leih banyak dari harga akan memproses topup, dan apabila harga lebih mahal dari saldo akan menampilkan pesan sesuai sout
      * @param menuChoice
      * @param selectedTopup
      * @param player

@@ -1,5 +1,5 @@
 /**
- * kelas ini merepresantisakan data pengguna / pembeli diamond
+ * kelas ini merepresantisakan data pengguna atau pembeli diamond
  * kelas ini merupakan turunan dari kelas user
  */
 public class Player extends User {
