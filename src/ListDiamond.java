@@ -1,17 +1,12 @@
 public class ListDiamond {
-    /**
-     * switch case untuk proses pemilihan dari list list diamond
-     * if else untuk apabila saldo leih banyak dari harga akan memproses topup, dan apabila harga lebih mahal dari saldo akan menampilkan pesan sesuai sout
-     * @param menuChoice
-     * @param selectedTopup
-     * @param player
-     */
-    static void ProccessTopUp(int menuChoice, TopUp selectedTopup, Player player) {
+    public static TopUp ProccessTopUp(int menuChoice, Player player) {
+        TopUp selectedTopup = null;
+
         switch (menuChoice) {
-            case 1 -> selectedTopup = new TopUp("86 Diamonds", MainApp.DIAMOND_86); //Refactor 3
-            case 2 -> selectedTopup = new TopUp("170 Diamonds", MainApp.DIAMOND_170); //Refactor 3
-            case 3 -> selectedTopup = new TopUp("257 Diamonds", MainApp.DIAMOND_257); //Refactor 3
-            case 4 -> selectedTopup = new TopUp("706 Diamonds", MainApp.DIAMOND_706); //Refactor 3
+            case 1 -> selectedTopup = new TopUp("86 Diamonds");
+            case 2 -> selectedTopup = new TopUp("170 Diamonds");
+            case 3 -> selectedTopup = new TopUp("257 Diamonds");
+            case 4 -> selectedTopup = new TopUp("706 Diamonds");
             default -> System.out.println("Invalid choice!");
         }
 
@@ -22,6 +17,8 @@ public class ListDiamond {
                 System.out.println("\n❌ Insufficient balance!");
             }
         }
+
+        return selectedTopup;
     }
 
     public static void showMenu() {

@@ -8,7 +8,7 @@ public class TopUp {
      */
     private double price;
 
-    public TopUp(String diamondPackage, double price) {
+    public TopUp(String diamondPackage) {
         this.diamondPackage = diamondPackage;
         this.price = price;
     }
